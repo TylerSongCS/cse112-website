@@ -1,0 +1,263 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row1
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.MainPage
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+.MainTitle
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Tropical-Islands-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.button
+{
+    margin-top: 30px;
+	text-align: center;
+}
+
+
+.logo img
+{
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+.btn-one {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background:#1AAB8A;
+  position:relative;
+  padding: 10px 30px;
+  cursor:pointer;
+  outline:none;
+  font-family: "Roboto", sans-serif;
+}
+.btn-one:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.btn-one:before,.btn-one:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+}
+.btn-one:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-one:hover:before,.btn-one:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+@font-face {
+    font-family: 'Sketch Block';
+    src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.woff') format('woff'),
+         url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.ttf') format('truetype'),
+         url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.svg#SketchBlockBold') format('svg');
+}
+@font-face {
+    font-family: 'Museo 700';
+    src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.woff') format('woff'),
+         url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.svg#SketchBlockBold') format('svg');
+}
+@font-face {
+    font-family: 'CallunaRegular';
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.woff') format('woff'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.ttf') format('truetype'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.svg#CallunaRegular') format('svg');
+}
+
+.AboutPage{
+    background: #333;
+    color: #fff;
+	
+	
+}
+.AboutTitle {
+
+    text-align: center;
+	font: 4em "Sketch Block";
+	color: darkorange;
+}
+.AboutSubTitle{
+	
+	padding-top: 10px;
+	padding-left: 200px;
+    text-align: left;
+	font: 1.6em "Museo 700";
+
+}
+.Teamouting{
+	
+
+    text-align: center;
+	font: 4em "Imapct";
+	color: black;
+
+}
+.About{
+
+	padding-top: 20px;
+	margin-right: 600px;
+	padding-left: 200px;
+    text-align: left;
+	font: 1.6em "CallunaRegular";
+}
+.teamPicture{
+	padding-top:60px;
+	display: block;
+	padding-left: 200px;
+	padding-bottom:200px;
+	margin-right: auto;
+	width: 25%;
+}
+.MissionTitle{
+	padding-top: 30px;
+	padding-left: 200px;
+    text-align: left;
+	font: 4em "Sketch Block";
+	color: #fff79e;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Description{
+
+	font: 1em "Sketch Block";
+
+}
+
+.teamTitle{
+
+    text-align: center;
+	font: 1em "Sketch Block";
+	color: darkorange;
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+/*Projects*/
+.sec-projects {width: 60%;}
+.sec-projects > h1 {
+  margin-top: 1em;
+  text-align: center;
+}
+.sec-projects article {
+  padding: .5em 0;
+  padding-left: 200px;
+  width: 100%;
+}
+.sec-projects article h1,
+.sec-projects article p {font-size: 110%;}
+.sec-projects article h1 {font-weight: bold;}
+.sec-projects article p {
+  margin: 0 .5em .5em 0;
+  text-align: justify;
+}
+.sec-projects p a {float: right;}
+.sec-projects button {
+  position: relative;
+  left: 80%;
+}
